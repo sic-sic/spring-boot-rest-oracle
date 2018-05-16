@@ -40,10 +40,10 @@ Result :
 ```json
 [
 	{
-		id: 1000,
-		name: John Doe,
-		email: john.doe@email,
-		age: 28
+		"id": 1000,
+		"name": "John Doe",
+		"email": "john.doe@email",
+		"age": 28
 	}
 ]
 ```
@@ -55,10 +55,10 @@ $ curl http://localhost:8080/customers/1000
 Result :
 ```json
 {
-	id: 1000,
-	name: John Doe,
-	email: john.doe@email,
-	age: 28
+	"id": 1000,
+	"name": "John Doe",
+	"email": "john.doe@email",
+	"age": 28
 }
 ```
 
